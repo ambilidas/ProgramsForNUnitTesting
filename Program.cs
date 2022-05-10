@@ -12,7 +12,12 @@ namespace ProgramsForNUnitTesting
             TempConversion obj2=new TempConversion();
             //obj2.temperatureConversion();
             MonthlyPayment obj3=new MonthlyPayment();
-            obj3.monthlyPaymentCalc();
+            //obj3.monthlyPaymentCalc();
+            SquareRoot obj4 = new SquareRoot();
+            //obj4.sqrt();
+            BinaryConversion obj5 = new BinaryConversion();
+            obj5.ToBinary();
+
         }
     }
 }
