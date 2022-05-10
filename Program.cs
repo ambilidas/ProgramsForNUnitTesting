@@ -10,7 +10,9 @@ namespace ProgramsForNUnitTesting
             DayOfWeek obj1 = new DayOfWeek();
             //obj1.dayOfWeek();
             TempConversion obj2=new TempConversion();
-            obj2.temperatureConversion();
+            //obj2.temperatureConversion();
+            MonthlyPayment obj3=new MonthlyPayment();
+            obj3.monthlyPaymentCalc();
         }
     }
 }
